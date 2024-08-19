@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Contact Us",
+    "paragraph": "Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.",
+    "bg_pattern": {
+      "mobile": "/assets/contact/mobile/bg-pattern-hero-contact-mobile.svg",
+      "desktop": "/assets/contact/desktop/bg-pattern-hero-desktop.svg"
+    }
+  },
+
+  "locations": {
+    "canada": {
+      "title": "Canada",
+      "img": "/assets/shared/desktop/illustration-canada.svg"
+    },
+    "australia": {
+      "title": "Australia",
+      "img": "/assets/shared/desktop/illustration-australia.svg"
+    },
+    "uk": {
+      "title": "United kingdom",
+      "img": "/assets/shared/desktop/illustration-united-kingdom.svg"
+    }
+  }
+}

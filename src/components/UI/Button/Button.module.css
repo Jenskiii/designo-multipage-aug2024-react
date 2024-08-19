@@ -1,0 +1,31 @@
+.btn {
+  display: inline-grid;
+  place-items: center;
+  cursor: pointer;
+  border: none;
+  font-size: var(--fs-300);
+  padding: 17px 24px;
+  border-radius: 8px;
+  font-family: inherit;
+  text-transform: uppercase;
+  font-weight: var(--fw-medium);
+  letter-spacing: 1px;
+  transition: 250ms ease-in-out;
+}
+
+/* themes */
+.btn.light {
+  background-color: hsl(var(--clr-primary-white));
+}
+.btn.light:is(:hover, :focus) {
+  color: hsl(var(--clr-primary-white));
+  background-color: hsl(var(--clr-secondary-peach));
+}
+
+.btn.dark{
+  color: hsl(var(--clr-primary-white));
+  background-color: hsl(var(--clr-primary-peach));
+}
+.btn.dark:is(:hover, :focus) {
+  background-color: hsl(var(--clr-secondary-peach));
+}

@@ -1,0 +1,37 @@
+.form {
+  display: grid;
+  gap: var(--form-gap, 1.5rem);
+  background-color: hsl(var(--clr-primary-peach));
+}
+
+.form button {
+  justify-self: end;
+}
+
+.group input {
+  color: hsl(var(--clr-primary-white));
+  font-weight: var(--fw-medium);
+  background-color: transparent;
+
+  border: 0;
+  outline: 0;
+  border-bottom: solid 1px hsl(var(--clr-primary-white));
+  padding: 0.7rem 1rem;
+  width: 100%;
+  transition: 250ms ease-in-out;
+}
+
+.group ::placeholder {
+  font-size: var(--fs-300);
+  color: hsl(var(--clr-primary-white));
+  font-weight: var(--fw-medium);
+  opacity: 0.5;
+}
+
+.group input:is(:hover, :active, :focus) {
+  border-bottom: solid 3px hsl(var(--clr-primary-white));
+}
+
+.group.filled input {
+  border-bottom: solid 3px hsl(var(--clr-primary-white));
+}

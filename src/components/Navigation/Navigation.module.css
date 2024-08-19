@@ -1,0 +1,43 @@
+/* NAVS */
+.nav ul {
+  display: flex;
+  font-size: var(--fs-700);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* MOBILE NAV */
+@media (max-width: 53rem) {
+  .nav ul {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* HEADER NAV */
+  .primary-nav {
+    position: absolute;
+    top: 100%;
+    left: 110%;
+    width: 100%;
+    color: hsl(var(--clr-primary-white));
+    background-color: hsl(var(--clr-primary-black));
+    padding: 3rem 1.5rem;
+    transition: 250ms linear;
+  }
+
+  .primary-nav.active {
+    left: 0;
+  }
+
+  /* FOOTER NAV */
+  .secondary-nav {
+    text-align: center;
+  }
+}
+
+/* TABLET NAV */
+@media (min-width: 53rem) {
+  .nav ul {
+    gap: 2.625rem;
+  }
+}

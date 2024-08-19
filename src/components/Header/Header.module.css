@@ -1,0 +1,35 @@
+/* HEADER */
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 2rem;
+}
+
+.header img {
+  max-width: 202px;
+}
+
+/* HAMBURGER */
+.hamburger {
+  cursor: pointer;
+  background-image: url("assets/shared/mobile/icon-hamburger.svg");
+  background-position: center;
+  background-size: cover;
+  width: 1rem;
+  height: 1rem;
+  border: 0;
+
+  transition: 250ms linear;
+
+  @media (min-width: 53rem) {
+    display: none;
+  }
+}
+.hamburger.open {
+  background-image: url("assets/shared/mobile/icon-close.svg");
+  rotate: 90deg;
+}
+
+@media (min-width: 53rem)

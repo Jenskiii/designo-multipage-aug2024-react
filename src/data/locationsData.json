@@ -1,0 +1,44 @@
+{
+  "branches": [
+    {
+      "title": "Canada",
+      "company": "Designo Central Office",
+      "address": {
+        "street": "3886 Wellington Street",
+        "zipcode": "Toronto, Ontario M9C 3J5"
+      },
+      "contact": {
+        "phone": "+1 253-863-8967",
+        "email": " contact@designo.co"
+      },
+      "bg_pattern": "assets/shared/desktop/bg-pattern-two-circles.svg"
+    },
+
+    {
+      "title": "Australia",
+      "company": "Designo AU Office",
+      "address": {
+        "street": "19 Balonne Street",
+        "zipcode": "New South Wales 2443"
+      },
+      "contact": {
+        "phone": "(02) 6720 9092",
+        "email": "contact@designo.au"
+      },
+      "bg_pattern": "assets/shared/desktop/bg-pattern-two-circles.svg"
+    },
+    {
+      "title": "United Kingdom",
+      "company": "Designo UK Office",
+      "address": {
+        "street": "13  Colorado Way",
+        "zipcode": "Rhyd-y-fro SA8 9GA"
+      },
+      "contact": {
+        "phone": "078 3115 1400",
+        "email": "contact@designo.uk"
+      },
+      "bg_pattern": "assets/shared/desktop/bg-pattern-two-circles.svg"
+    }
+  ]
+}
