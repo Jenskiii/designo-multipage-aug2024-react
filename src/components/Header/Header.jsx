@@ -14,7 +14,6 @@ export function Header() {
         className={`${styles.hamburger} ${isOpen ? styles.open : ""}`}
         onClick={() => setIsOpen((prev) => !prev)}
         aria-expanded={isOpen ? true : false}
-        aria-hidden="true"
       />
       {/* NAV */}
       <Navigation isPrimaryNav isOpen={isOpen}/>

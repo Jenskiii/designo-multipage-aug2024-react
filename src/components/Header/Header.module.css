@@ -14,7 +14,7 @@
 /* HAMBURGER */
 .hamburger {
   cursor: pointer;
-  background-image: url("assets/shared/mobile/icon-hamburger.svg");
+  background-image: url("shared/mobile/icon-hamburger.svg");
   background-position: center;
   background-size: cover;
   width: 1rem;
