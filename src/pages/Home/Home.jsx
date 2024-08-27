@@ -55,7 +55,7 @@ export function Home() {
                 />
                 <img
                   className={styles[`bg-pattern_${index}`]}
-                  src="public/assets/shared/desktop/bg-pattern-small-circle.svg"
+                  src="/assets/shared/desktop/bg-pattern-small-circle.svg"
                   alt="single circle"
                 />
               </div>
