@@ -5,10 +5,7 @@
   justify-content: space-between;
   align-items: center;
   padding-block: 2rem;
-}
-
-.header img {
-  max-width: 202px;
+  width: 100%;
 }
 
 /* HAMBURGER */
@@ -17,10 +14,9 @@
   background-image: url("shared/mobile/icon-hamburger.svg");
   background-position: center;
   background-size: cover;
-  width: 1rem;
-  height: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border: 0;
-
   transition: 250ms linear;
 
   @media (min-width: 53rem) {
@@ -28,8 +24,12 @@
   }
 }
 .hamburger.open {
-  background-image: url("assets/shared/mobile/icon-close.svg");
+  background-image: url("shared/mobile/icon-close.svg");
   rotate: 90deg;
 }
 
-@media (min-width: 53rem)
+@media (min-width: 53rem){
+  .header{
+    padding-block: 4rem;
+  }
+}

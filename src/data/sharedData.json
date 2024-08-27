@@ -1,0 +1,19 @@
+{
+  "footer": {
+    "logo": "/public/assets/shared/desktop/logo-light.png",
+    "company": "Designo Central Office",
+    "address": {
+      "street": "3886 Wellington Street",
+      "zipcode": "Toronto, Ontario M9C 3J5"
+    },
+    "contact": {
+      "phone": "+1 253-863-8967",
+      "email": " contact@designo.co"
+    },
+
+    "funnel": {
+      "title": "Let’s talk about your project",
+      "text": "Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow."
+    }
+  }
+}

@@ -7,8 +7,9 @@
 
   --fs-900: 2rem;
   --fs-800: 1.75rem;
-  --fs-300: 0, 9375rem;
-  @media (min-width: 53rem) {
+  --fs-300: 0.9375rem;
+  --fs-200: 0.875rem;
+  @media (min-width: 46.5rem) {
     --fs-900: 3rem;
     --fs-800: 2.5rem;
     --fs-700: 1.5rem;
@@ -24,6 +25,7 @@
   --clr-primary-white: 0, 0%, 100%;
   /* secondary */
   --clr-secondary-peach: 11, 100%, 80%;
+  --clr-secondary-white: 14, 76%, 97%;
   --clr-secondary-black: 264, 5%, 20%;
   --clr-secondary-grey: 210, 17%, 95%;
 
@@ -86,10 +88,14 @@ body {
   color: hsl(var(--clr-primary-white));
   background-color: hsl(var(--clr-primary-peach));
 
-  @media (min-width: 53rem) {
+  @media (min-width: 46.5625rem) {
     border-radius: var(--br-default);
     margin-inline: 1.5rem;
   }
+}
+
+.logo {
+  max-width: 202px;
 }
 
 /* headings */
@@ -100,25 +106,28 @@ body {
 }
 .heading-1 {
   font-size: var(--fs-900);
-  line-height: 48px;
+  line-height: 2.25rem;
+  @media (min-width: 53rem) {
+    line-height: 3rem;
+  }
 }
 .heading-2 {
   font-size: var(--fs-800);
   letter-spacing: 2px;
-  line-height: 48px;
 
+  line-height: 36px;
   @media (min-width: 53rem) {
     letter-spacing: 1.4px;
-    line-height: 36px;
+    line-height: 48px;
   }
 }
 .heading-3 {
   font-size: var(--fs-700);
   letter-spacing: 5px;
   line-height: 26px;
+  text-transform: uppercase;
 
   @media (min-width: 53rem) {
-    letter-spacing: 1px;
     line-height: 26px;
   }
 }

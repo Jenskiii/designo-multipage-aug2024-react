@@ -1,0 +1,29 @@
+/* DESIGN CARD */
+.design-card_grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 53rem) {
+}
+
+@media (min-width: 62rem) {
+  /* DESIGN CARD */
+  .design-card_grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.875;
+  }
+
+  /* if you first card needs to be large / and 3 cards */
+  .design-card_grid.large {
+    grid-template-rows: 1fr 1fr;
+  }
+  .design-card_grid.large > a {
+    grid-row: span 1;
+    grid-column: 2;
+  }
+  .design-card_grid.large a:first-child {
+    grid-row: span 2;
+    grid-column: 1;
+  }
+}

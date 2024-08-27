@@ -1,50 +1,53 @@
 {
   "title": "Award-winning custom designs and digital branding solutions",
   "subtitle": "With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.",
-  "hero_img": "/assets/home/desktop/image-hero-phone.png",
+  "hero_img": "/public/assets/home/desktop/image-hero-phone.png",
   "photo_collage": [
     {
       "title": "Web design",
+      "link": "/design/web",
       "large": true,
       "img": {
-        "mobile": "assets/home/mobile/image-web-design.jpg",
-        "tablet": "assets/home/tablet/image-web-design.jpg",
-        "desktop": "assets/home/desktop/image-web-design-large.jpg"
+        "mobile": "/public/assets/home/mobile/image-web-design.jpg",
+        "tablet": "/public/assets/home/tablet/image-web-design.jpg",
+        "desktop": "/public/assets/home/desktop/image-web-design-large.jpg"
       }
     },
     {
       "title": "App design",
+      "link": "/design/app",
       "large": false,
       "img": {
-        "mobile": "assets/home/mobile/image-app-design.jpg",
-        "tablet": "assets/home/tablet/image-app-design.jpg",
-        "desktop": "assets/home/desktop/image-app-design.jpg"
+        "mobile": "/public/assets/home/mobile/image-app-design.jpg",
+        "tablet": "/public/assets/home/tablet/image-app-design.jpg",
+        "desktop": "/public/assets/home/desktop/image-app-design.jpg"
       }
     },
     {
       "title": "Graphic design",
+      "link": "/design/graphic",
       "large": false,
       "img": {
-        "mobile": "assets/home/mobile/image-graphic-design.jpg",
-        "tablet": "assets/home/tablet/image-graphic-design.jpg",
-        "desktop": "assets/home/desktop/image-graphic-design.jpg"
+        "mobile": "/public/assets/home/mobile/image-graphic-design.jpg",
+        "tablet": "/public/assets/home/tablet/image-graphic-design.jpg",
+        "desktop": "/public/assets/home/desktop/image-graphic-design.jpg"
       }
     }
   ],
   "illustration": [
     {
       "title": "Passionate",
-      "img": "/assets/home/desktop/illustration-passionate.svg",
+      "img": "/public/assets/home/desktop/illustration-passionate.svg",
       "text": "Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We mergeart, design, and technology into exciting new solutions."
     },
     {
       "title": "Resourceful",
-      "img": "/assets/home/desktop/illustration-resourceful.svg",
+      "img": "/public/assets/home/desktop/illustration-resourceful.svg",
       "text": "Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customercollaboration. It guarantees superior results that fulfill our clients’ needs."
     },
     {
       "title": "Friendly",
-      "img": "/assets/home/desktop/illustration-friendly.svg",
+      "img": "/public/assets/home/desktop/illustration-friendly.svg",
       "text": " We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and westrive to give them the best experience a company can provide."
     }
   ]

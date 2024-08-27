@@ -11,7 +11,7 @@
         "phone": "+1 253-863-8967",
         "email": " contact@designo.co"
       },
-      "bg_pattern": "assets/shared/desktop/bg-pattern-two-circles.svg"
+      "bg_pattern": "/public/assets/shared/desktop/bg-pattern-two-circles.svg"
     },
 
     {
@@ -25,7 +25,7 @@
         "phone": "(02) 6720 9092",
         "email": "contact@designo.au"
       },
-      "bg_pattern": "assets/shared/desktop/bg-pattern-two-circles.svg"
+      "bg_pattern": "/public/assets/shared/desktop/bg-pattern-two-circles.svg"
     },
     {
       "title": "United Kingdom",
@@ -38,7 +38,7 @@
         "phone": "078 3115 1400",
         "email": "contact@designo.uk"
       },
-      "bg_pattern": "assets/shared/desktop/bg-pattern-two-circles.svg"
+      "bg_pattern": "/public/assets/shared/desktop/bg-pattern-two-circles.svg"
     }
   ]
 }

@@ -15,6 +15,7 @@
 
 /* themes */
 .btn.light {
+  color: hsl(var(--clr-primary-black));
   background-color: hsl(var(--clr-primary-white));
 }
 .btn.light:is(:hover, :focus) {
@@ -22,7 +23,7 @@
   background-color: hsl(var(--clr-secondary-peach));
 }
 
-.btn.dark{
+.btn.dark {
   color: hsl(var(--clr-primary-white));
   background-color: hsl(var(--clr-primary-peach));
 }

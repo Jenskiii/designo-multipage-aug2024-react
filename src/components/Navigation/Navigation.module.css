@@ -1,9 +1,25 @@
 /* NAVS */
+/* shared style */
 .nav ul {
   display: flex;
   font-size: var(--fs-700);
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: 250ms linear;
+}
+.nav a:is(:hover, :active) {
+  text-decoration-color: inherit;
+}
+
+/* secondary nav */
+.secondary-nav {
+  color: hsl(var(--clr-primary-white));
+  font-size: var(--fs-200);
 }
 
 /* MOBILE NAV */
@@ -16,17 +32,24 @@
   /* HEADER NAV */
   .primary-nav {
     position: absolute;
-    top: 100%;
+    top: 5.7rem;
     left: 110%;
     width: 100%;
     color: hsl(var(--clr-primary-white));
-    background-color: hsl(var(--clr-primary-black));
-    padding: 3rem 1.5rem;
+    display: none;
     transition: 250ms linear;
   }
-
+  .primary-nav ul {
+    background-color: hsl(var(--clr-primary-black));
+    padding: 3rem 1.5rem;
+  }
+  /* active state */
   .primary-nav.active {
+    position: fixed;
     left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(var(--clr-primary-black), 0.75);
   }
 
   /* FOOTER NAV */

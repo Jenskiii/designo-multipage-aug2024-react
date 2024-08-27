@@ -1,13 +1,20 @@
 import { useState } from "react";
 import { Navigation } from "../Navigation/Navigation";
 import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className={`${styles.header} | container`}>
+    <header className={`${styles.header}  | container`}>
       {/* LOGO */}
-      <img src="/assets/shared/desktop/logo-dark.png" alt="Logo of designo" />
+      <Link to="/home">
+        <img
+          className="logo"
+          src="/assets/shared/desktop/logo-dark.png"
+          alt="Logo of designo"
+        />
+      </Link>
 
       {/* HAMBURGER */}
       <button
@@ -16,7 +23,7 @@ export function Header() {
         aria-expanded={isOpen ? true : false}
       />
       {/* NAV */}
-      <Navigation isPrimaryNav isOpen={isOpen}/>
+      <Navigation isPrimaryNav isOpen={isOpen} setIsOpen={setIsOpen} />
     </header>
   );
 }
