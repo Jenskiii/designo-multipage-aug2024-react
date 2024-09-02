@@ -8,7 +8,6 @@ export function Navigation({ isPrimaryNav = false, isOpen, setIsOpen }) {
       className={`${styles.nav} | ${
         isPrimaryNav ? styles["primary-nav"] : styles["secondary-nav"]
       } ${isOpen ? styles.active : ""}`}
-      role="navigation"
       aria-label="Main menu"
       onClick={() => setIsOpen(false)}>
       {/* LINKS */}
