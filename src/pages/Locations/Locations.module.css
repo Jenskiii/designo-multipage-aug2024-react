@@ -89,6 +89,7 @@
   }
 
   .card {
+    max-height: 326px;
     width: 100%;
   }
 }

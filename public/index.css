@@ -89,6 +89,7 @@ body {
   position: relative;
   max-width: 80rem;
   margin-inline: auto;
+  align-self: center;
 }
 
 /* hero */

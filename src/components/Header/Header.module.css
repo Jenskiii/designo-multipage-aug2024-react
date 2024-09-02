@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  align-self: start;
   padding-block: 2rem;
   width: 100%;
 }
