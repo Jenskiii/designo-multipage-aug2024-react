@@ -71,6 +71,11 @@ body {
   background-color: hsl(var(--clr-primary-white));
 }
 
+main{
+  position: relative;
+  overflow-x: hidden;
+}
+
 /* UTILITIES */
 /* container */
 .container {
