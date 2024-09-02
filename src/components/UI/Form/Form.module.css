@@ -1,14 +1,17 @@
 .form {
   display: grid;
   gap: var(--form-gap, 1.5rem);
-  background-color: hsl(var(--clr-primary-peach));
+  background-color: transparent;
+  z-index: 5;
 }
 
 .form button {
-  justify-self: end;
+  justify-self: center;
+  min-width: 9.5rem;
 }
 
-.group input {
+.group input,
+.group textarea {
   color: hsl(var(--clr-primary-white));
   font-weight: var(--fw-medium);
   background-color: transparent;
@@ -21,6 +24,10 @@
   transition: 250ms ease-in-out;
 }
 
+.group textarea{
+  padding-bottom: 4.8rem;
+}
+
 .group ::placeholder {
   font-size: var(--fs-300);
   color: hsl(var(--clr-primary-white));
@@ -28,10 +35,18 @@
   opacity: 0.5;
 }
 
-.group input:is(:hover, :active, :focus) {
+.group input:is(:hover, :active, :focus),
+.group textarea:is(:hover, :active, :focus) {
   border-bottom: solid 3px hsl(var(--clr-primary-white));
 }
 
-.group.filled input {
+.group.filled input,
+.group.filled textarea {
   border-bottom: solid 3px hsl(var(--clr-primary-white));
+}
+
+@media (min-width: 46.5rem) {
+  .form button {
+    justify-self: end;
+  }
 }

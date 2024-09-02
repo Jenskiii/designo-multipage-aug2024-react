@@ -7,11 +7,15 @@
         "street": "3886 Wellington Street",
         "zipcode": "Toronto, Ontario M9C 3J5"
       },
+      "img": {
+        "tablet": "/assets/locations/tablet/image-map-canada.png",
+        "small": "/assets/locations/desktop/image-map-canada.png"
+      },
       "contact": {
         "phone": "+1 253-863-8967",
         "email": " contact@designo.co"
       },
-      "bg_pattern": "/assets/shared/desktop/bg-pattern-two-circles.svg"
+      "bg_pattern": "/assets/shared/desktop/bg-pattern-three-circles.svg"
     },
 
     {
@@ -21,11 +25,15 @@
         "street": "19 Balonne Street",
         "zipcode": "New South Wales 2443"
       },
+      "img": {
+        "tablet": "/assets/locations/tablet/image-map-australia.png",
+        "small": "/assets/locations/desktop/image-map-australia.png"
+      },
       "contact": {
         "phone": "(02) 6720 9092",
         "email": "contact@designo.au"
       },
-      "bg_pattern": "/assets/shared/desktop/bg-pattern-two-circles.svg"
+      "bg_pattern": "/assets/shared/desktop/bg-pattern-three-circles.svg"
     },
     {
       "title": "United Kingdom",
@@ -34,11 +42,15 @@
         "street": "13  Colorado Way",
         "zipcode": "Rhyd-y-fro SA8 9GA"
       },
+      "img": {
+        "tablet": "/assets/locations/tablet/image-map-uk.png",
+        "small": "/assets/locations/desktop/image-map-uk.png"
+      },
       "contact": {
         "phone": "078 3115 1400",
         "email": "contact@designo.uk"
       },
-      "bg_pattern": "/assets/shared/desktop/bg-pattern-two-circles.svg"
+      "bg_pattern": "/assets/shared/desktop/bg-pattern-three-circles.svg"
     }
   ]
 }

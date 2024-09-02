@@ -1,0 +1,78 @@
+/* HERO */
+.hero {
+  position: relative;
+  display: grid;
+  gap: 3rem;
+  padding: 3.5rem 1.5rem;
+  overflow: hidden;
+}
+.hero-body {
+  display: grid;
+  justify-content: center;
+  gap: 1.5rem;
+
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-pattern img {
+  position: absolute;
+  max-width: fit-content;
+  top: 0;
+  left: -3rem;
+}
+
+/* LOCATIONS */
+.locations {
+  margin-block: 7.5rem;
+}
+
+@media (min-width: 46.5rem) {
+  /* HERO */
+  .hero {
+    gap: 2.5rem;
+    padding: 4.4rem 3.6rem;
+  }
+  .hero-body {
+    text-align: left;
+    justify-self: start;
+    gap: 2rem;
+  }
+  .hero-body p {
+    max-width: 60ch;
+  }
+  .hero-pattern img {
+    top: -2.5rem;
+    left: -6.5rem;
+  }
+}
+
+@media (min-width: 62rem) {
+  /* HERO */
+  .hero {
+    grid-template-columns: 1fr 43%;
+    padding: 54px 95px;
+  }
+  .hero-body {
+    align-self: center;
+  }
+  .hero-body p {
+    max-width: 46ch;
+  }
+  .hero-pattern img {
+    top: -6rem;
+    left: -2.5rem;
+  }
+
+  /* LOCATIONS */
+  .locations {
+    margin-block: 10rem;
+  }
+}
+
+/* BG LEAF */
+.leaf {
+  bottom: 0rem;
+  left: calc(50% + 15rem);
+  transform: translate(-50%, 0);
+}

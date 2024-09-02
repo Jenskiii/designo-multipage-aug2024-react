@@ -130,7 +130,7 @@
     grid-area: contact;
     justify-self: start;
 
-   flex-direction: row;
+    flex-direction: row;
     gap: 4rem;
     text-align: left;
     text-wrap: nowrap;

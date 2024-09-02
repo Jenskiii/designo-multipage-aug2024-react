@@ -9,7 +9,7 @@
     },
     "bg_pattern": {
       "mobile": "/assets/about/mobile/bg-pattern-hero-about-mobile.svg",
-      "desktop": "/assets/about/dekstop/bg-pattern-hero-about-desktop.svg"
+      "desktop": "/assets/about/desktop/bg-pattern-hero-about-desktop.svg"
     }
   },
 
@@ -22,23 +22,26 @@
       "tablet": "/assets/about/tablet/image-world-class-talent.jpg",
       "desktop": "/assets/about/desktop/image-world-class-talent.jpg"
     },
-    "bg_pattern": "/assets/shared/desktop/bg-pattern-two-circles.svg"
+    "bg_pattern": "/assets/shared/desktop/bg-pattern-three-circles.svg"
   },
 
-  "locations": {
-    "canada": {
+  "locations": [
+    {
       "title": "Canada",
-      "img": "/assets/shared/desktop/illustration-canada.svg"
+      "img": "/assets/shared/desktop/illustration-canada.svg",
+      "link": "/locations#canada"
     },
-    "australia": {
+    {
       "title": "Australia",
-      "img": "/assets/shared/desktop/illustration-australia.svg"
+      "img": "/assets/shared/desktop/illustration-australia.svg",
+      "link": "/locations#australia"
     },
-    "uk": {
+    {
       "title": "United kingdom",
-      "img": "/assets/shared/desktop/illustration-united-kingdom.svg"
+      "img": "/assets/shared/desktop/illustration-united-kingdom.svg",
+      "link": "/locations#uk"
     }
-  },
+  ],
 
   "branding": {
     "title": "The real deal",
@@ -49,6 +52,6 @@
       "tablet": "/assets/about/tablet/image-real-deal.jpg",
       "desktop": "/assets/about/desktop/image-real-deal.jpg"
     },
-    "bg_pattern": "/assets/shared/desktop/bg-pattern-two-circles.svg"
+    "bg_pattern": "/assets/shared/desktop/bg-pattern-three-circles.svg"
   }
 }

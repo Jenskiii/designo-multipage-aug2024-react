@@ -14,7 +14,7 @@
   right: -16.6rem;
   max-width: min-content;
 }
-.hero img {
+.hero-img{
   position: absolute;
   bottom: -12.6rem;
   justify-self: center;
@@ -106,7 +106,7 @@
     top: 0;
     right: 0 !important; 
   }
-  .hero img {
+  .hero-img {
     bottom: -4.5rem;
     right: 5.875rem;
   }

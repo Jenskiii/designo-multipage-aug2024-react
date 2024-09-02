@@ -25,3 +25,17 @@ export function FormGroup({ label, id, value, setValue, type = "text" }) {
     </div>
   );
 }
+
+export function FormTextArea({ id, value, setValue, label }) {
+  return (
+    <div className={`${styles.group} ${value ? styles.filled : ""}`}>
+      <textarea
+        name={id}
+        id={id}
+        onChange={(e) => setValue(e.target.value)}
+        value={value}
+        placeholder={label}
+        aria-label={label}></textarea>
+    </div>
+  );
+}

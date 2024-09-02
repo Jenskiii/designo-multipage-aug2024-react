@@ -1,0 +1,9 @@
+.leaf{
+  display: none;
+  position: absolute;
+  z-index: 0;
+
+  @media (min-width: 62rem){
+    display: block;
+  }
+}

@@ -13,11 +13,13 @@ export function Home() {
         aria-label="full-bleed"
         aria-labelledby="home-hero">
         <div className={`${styles.hero} | hero`}>
+          {/* BG PATTERN */}
           <img
             className={styles["hero-circle"]}
             src="/assets/home/desktop/bg-pattern-hero-home.svg"
             alt="round circle used for the background"
           />
+          {/* BODY */}
           <div className={styles["hero-body"]}>
             <h1 id="home-hero" className="heading-1">
               {data.title}
@@ -27,7 +29,10 @@ export function Home() {
               Learn more
             </Button>
           </div>
+
+          {/* HERO IMG */}
           <img
+            className={styles["hero-img"]}
             src={data.hero_img}
             alt="Mobile phone with the text 'FRAME' inside"
           />

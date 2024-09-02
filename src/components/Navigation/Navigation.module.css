@@ -36,8 +36,8 @@
     left: 110%;
     width: 100%;
     color: hsl(var(--clr-primary-white));
-    display: none;
     transition: 250ms linear;
+    z-index: 100;
   }
   .primary-nav ul {
     background-color: hsl(var(--clr-primary-black));
