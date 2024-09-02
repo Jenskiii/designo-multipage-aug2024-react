@@ -3,6 +3,8 @@ import styles from "./About.module.css";
 import { TwoColumns } from "../../components/TwoColumns/TwoColumns";
 import { LocationLinks } from "../../components/LocationLinks/LocationLinks";
 import { Leaf } from "../../components/UI/Leaf/Leaf";
+
+
 export function About() {
   return (
     <>

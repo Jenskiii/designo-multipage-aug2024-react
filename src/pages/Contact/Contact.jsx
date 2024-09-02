@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { LocationLinks } from "../../components/LocationLinks/LocationLinks";
 import { Form, FormGroup, FormTextArea } from "../../components/UI/Form/Form";
 import { Leaf } from "../../components/UI/Leaf/Leaf";
@@ -5,9 +6,26 @@ import data from "../../data/contactData.json";
 import styles from "./Contact.module.css";
 
 export function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    textarea: "",
+  });
+
+  const [isAfterSubmit, setIsAfterSubmit] = useState(false);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
+
   return (
     <>
-      <div className="main"> 
+      <div className="main">
         {/* HERO */}
         <section
           className="container"
@@ -33,11 +51,37 @@ export function Contact() {
               </picture>
             </div>
             {/* FORM */}
-            <Form>
-              <FormGroup label="Name" id="name" />
-              <FormGroup label="Email Address" id="email" />
-              <FormGroup label="Phone" id="phone" />
-              <FormTextArea label="Your Message" id="textarea" />
+            <Form formData={formData} afterSubmit={setIsAfterSubmit}>
+              <FormGroup
+                label="Name"
+                id="name"
+                setValue={handleInputChange}
+                value={formData.name}
+                afterSubmit={isAfterSubmit}
+              />
+              <FormGroup
+                label="Email Address"
+                id="email"
+                type="email"
+                setValue={handleInputChange}
+                value={formData.email}
+                afterSubmit={isAfterSubmit}
+              />
+              <FormGroup
+                label="Phone"
+                id="phone"
+                type="tel"
+                setValue={handleInputChange}
+                value={formData.phone}
+                afterSubmit={isAfterSubmit}
+              />
+              <FormTextArea
+                label="Your Message"
+                id="textarea"
+                setValue={handleInputChange}
+                value={formData.textarea}
+                afterSubmit={isAfterSubmit}
+              />
             </Form>
           </div>
         </section>
