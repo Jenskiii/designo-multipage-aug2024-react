@@ -63,5 +63,7 @@
 @media (min-width: 53rem) {
   .nav ul {
     gap: 2.625rem;
+    font-size: var(--fs-300);
   }
+
 }
