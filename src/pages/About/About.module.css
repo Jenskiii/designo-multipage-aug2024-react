@@ -1,4 +1,4 @@
-/* HERO */
+
 .hero {
   overflow: hidden;
 }
@@ -69,4 +69,14 @@
   .locations-wrapper {
     margin-block: 2rem 10.5rem;
   }
+}
+
+/* LEAFS */
+.top-leaf{
+  top: 17.5rem;
+}
+
+.bottom-leaf{
+  bottom: 29.5rem;
+  right: -22rem;
 }

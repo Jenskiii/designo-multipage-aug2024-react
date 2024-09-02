@@ -7,7 +7,7 @@ import styles from "./Contact.module.css";
 export function Contact() {
   return (
     <>
-      <main>
+      <div className="main"> 
         {/* HERO */}
         <section
           className="container"
@@ -45,7 +45,7 @@ export function Contact() {
         <LocationLinks className={styles.locations} />
         {/* LEAF */}
         <Leaf className={styles.leaf} />
-      </main>
+      </div>
     </>
   );
 }

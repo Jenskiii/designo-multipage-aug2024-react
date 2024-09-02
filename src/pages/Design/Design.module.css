@@ -61,4 +61,15 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem 1.875rem;
   }
+
+  .app-bg_pattern{
+   left: -5rem;
+  }
+}
+
+
+/* LEAF */
+.leaf{
+  top: 5rem;
+  left: 0;
 }

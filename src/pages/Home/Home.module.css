@@ -134,3 +134,15 @@
     gap: 3rem;
   }
 }
+
+
+/* LEAFS */
+.top-leaf{
+  top: 20rem;
+}
+
+.bottom-leaf{
+  right: 0;
+  bottom: -12rem;
+  rotate: 180deg;
+}

@@ -71,11 +71,6 @@ body {
   background-color: hsl(var(--clr-primary-white));
 }
 
-main{
-  position: relative;
-  overflow-x: hidden;
-}
-
 /* UTILITIES */
 /* container */
 .container {
@@ -86,6 +81,12 @@ main{
 .container[aria-label="full-bleed"] {
   width: 100%;
   padding: 0;
+}
+/* main */
+.main {
+  position: relative;
+  max-width: 80rem;
+  margin-inline: auto;
 }
 
 /* hero */
